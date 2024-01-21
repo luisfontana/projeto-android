@@ -9,11 +9,11 @@
 }
 
 :root {
-    --cor01: #34F000;
-    --cor02: #69FF40;
-    --cor03: #194f09;
-    --cor04: #F000C2;
-    --cor05: #9B3487;
+    --cor01: #17a438;
+    --cor02: #c8edcd;
+    --cor03: #0f3304;
+    --cor04: #063e13;
+    --cor05: #00b418;
 
     --fonte-padrao: Arial, Verdana, Helvetica, san-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -38,7 +38,7 @@ header {
 }
 
 header > h1 {
-    color: var(--cor04);
+    color: white;
     font-family:var(--fonte-destaque);
     font-size: 4em;
     font-weight: normal;
@@ -49,7 +49,7 @@ header > h1 {
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.4em;
-    color: var(--cor04);
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
@@ -65,7 +65,7 @@ nav {
 }
 
 nav > a {
-    color: var(--cor04);
+    color: var(--cor02);
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -75,7 +75,7 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor02);
-    color: var(--cor03);
+    color: black;
     text-decoration: underline;
     
 }
@@ -99,7 +99,7 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-android);
-    color: var(--cor05);
+    color: var(--cor03);
     text-indent: 8px;
     background-image: linear-gradient(to right, var(--cor02), transparent);
 }
@@ -134,19 +134,18 @@ main strong {
 }
 
 main a {
-    color: var(--cor05);
+    color: var(--cor04);
     background-color: var(--cor02);
     text-decoration: none;
     font-weight: bold;
     padding: 2px 5px;
     border-radius: 3px;
-    transition: 0.5s;
 }
 
 main a:hover {
     text-decoration: underline;
     color: var(--cor04);
-    background-color: var(--cor01);
+
 }
 
 a.externo::after {
@@ -164,16 +163,16 @@ main img.pequena {
 }
 
 aside {
-    color: white;
-    background-color: var(--cor03);
+    color: black;
+    background-color: var(--cor02);
     padding: 12px;
     border-radius: 10px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.433);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.297);
 }
 
 aside > h3 {
-    color: var(--cor05);
-    background-color: var(--cor02);
+    color: white;
+    background-color: var(--cor03);
     padding: 10px;
     margin: -12px -12px 0px -12px;
     border-radius:10px 10px 0px 0px ;
@@ -182,22 +181,23 @@ aside > h3 {
 aside > ul {
     list-style-position: inside;
     columns: 2;
-    list-style-type: '\1F5F8\00a0\00a0';
+    list-style-type: '\2714\00a0\00a0';
 }
 
 footer {
     background-color: var(--cor03);
-    color: var(--cor04);
+    color: white;
     text-align: center;
     font-size: 1.06em;
 }
 
 footer a {
     text-decoration: none;
-    color: var(--cor05);
+    font-weight: bold;
+    color: white;
 }
 
 footer a:hover {
-    color: white;
+    color: var(--cor02);
     text-decoration: underline;
 }
